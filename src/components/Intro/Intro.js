@@ -2,7 +2,6 @@ import React, { Component } from "react";
 import { Icon } from "semantic-ui-react";
 import styled from "styled-components";
 import { FlexBox } from "../resusuable/styles";
-import "bootstrap/dist/css/bootstrap.min.css";
 import img1 from "../../img/myimage.png"
 
 const InstroContainer = styled.div`
