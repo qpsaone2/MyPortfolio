@@ -71,7 +71,7 @@ class AWS extends Component {
           <br />
           <FlexBox>
             <div className="flex-4" style={{ padding: "25px" }}>
-              <img src={img1} className="me" />
+              <img src={img1} className="me" alt="profile" />
             </div>
             <div className="flex-6" style={{ padding: "30px" }}>
               <div className="job">Cloud Engineer</div>

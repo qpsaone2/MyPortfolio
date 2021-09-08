@@ -72,7 +72,7 @@ class Intro extends Component {
           <FlexBox>
             <div className="flex-4" style={{ padding: "25px" }}>
               {/* <image className="me" src={require("../../img/myimage.png")} /> */}
-              <img src={img1} className="me"  />
+              <img src={img1} className="me" alt="profile"  />
             </div>
             <div className="flex-6" style={{ padding: "30px" }}>
               <div className="job">Cloud Engineer</div>
