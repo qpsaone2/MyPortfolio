@@ -5,12 +5,15 @@ import { FlexBox } from "../resusuable/styles";
 import img1 from "../../img/myimage.png";
 
 const InstroContainer = styled.div`
-  position: relative;
+  position: fixed;
   margin: 0 auto;
-  margin-top: 100px;
+  margin-bottom: 200px;
+  margin-top: 200px;
+  margin-left: 600px;
   width: 620px;
   height: 420px;
-  box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.3);
+  box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.3);
+
 
   .me {
     width: 100%;
@@ -39,7 +42,6 @@ const IconsBox = styled.div`
   position: absolute;
   bottom: 0;
   height: 70px;
-  background-color: #555;
   width: 100%;
   padding: 20px 0;
   .myicon {
@@ -78,27 +80,22 @@ class Java extends Component {
               <div className="name">Lee Sang Cheol </div>
               <br />
               <FlexBox>
-                <div className="flex-2 label">FrontEnd</div>
+                <div className="flex-2 label">Language</div>
                 <div className="flex-1">&nbsp;</div>
-                <div className="flex-6">ReactJS, JavaScript</div>
+                <div className="flex-6">JavaScript</div>
               </FlexBox>
               <br />
               <FlexBox style={{ marginTop: "7px" }}>
-                <div className="flex-2 label">Phone</div>
+                <div className="flex-2 label">JavaScript</div>
                 <div className="flex-1">&nbsp;</div>
-                <div className="flex-6">010-5194-1416</div>
+                <div className="flex-6">Node.js와 리액트를 이용한 비동기처리, 타입스크립트/컴포넌트프로그래
+                                  밍/함수형 컴포넌트/서버사이드 렌더링</div>
               </FlexBox>
               <br />
               <FlexBox style={{ marginTop: "7px" }}>
-                <div className="flex-2 label">Address</div>
+                <div className="flex-2 label">github</div>
                 <div className="flex-1">&nbsp;</div>
-                <div className="flex-6">부산 동래구 사직동</div>
-              </FlexBox>
-              <br />
-              <FlexBox style={{ marginTop: "7px" }}>
-                <div className="flex-2 label">Email</div>
-                <div className="flex-1">&nbsp;</div>
-                <div className="flex-6">cloudlsc0406@gmail.com</div>
+                <div className="flex-6">https://github.com/qpsaone2</div>
               </FlexBox>
             </div>
           </FlexBox>

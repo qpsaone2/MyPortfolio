@@ -2,15 +2,17 @@ import React, { Component } from "react";
 import { Icon } from "semantic-ui-react";
 import styled from "styled-components";
 import { FlexBox } from "../resusuable/styles";
-import img1 from "../../img/myimage.png"
+import img1 from "../../img/myimage.png";
 
 const InstroContainer = styled.div`
-  position: relative;
+  position: fixed;
   margin: 0 auto;
-  margin-top: 100px;
+  margin-bottom: 200px;
+  margin-top: 200px;
+  margin-left: 600px;
   width: 620px;
   height: 420px;
-  box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.3);
+  box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.3);
 
   .me {
     width: 100%;
@@ -39,7 +41,6 @@ const IconsBox = styled.div`
   position: absolute;
   bottom: 0;
   height: 70px;
-  background-color: #555;
   width: 100%;
   padding: 20px 0;
   .myicon {
@@ -66,13 +67,13 @@ const IconsBox = styled.div`
 class Intro extends Component {
   render() {
     return (
-      <div>
+      <div style={{ display: "flex" }}>
         <InstroContainer>
           <br />
           <FlexBox>
             <div className="flex-4" style={{ padding: "25px" }}>
               {/* <image className="me" src={require("../../img/myimage.png")} /> */}
-              <img src={img1} className="me" alt="profile"  />
+              <img src={img1} className="me" alt="profile" />
             </div>
             <div className="flex-6" style={{ padding: "30px" }}>
               <div className="job">Cloud Engineer</div>

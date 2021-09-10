@@ -4,19 +4,20 @@ import MenuButton from "./MenuButton";
 
 const Menu = styled.div`
   position: fixed;
-  margin-bottom: 80px;
+  margin-bottom: 200px;
   display: flex;
   justify-content: space-between;
   bottom: 0;
   width: 560px;
-  background-color: #efefef;
   height: 120px;
   left: 50%;
   padding: 10px 20px;
   padding-bottom: 5px;
   transform: translateX(-50%);
   border-top-left-radius: 25px;
+  border-bottom-left-radius: 25px;
   border-top-right-radius: 25px;
+  border-bottom-right-radius: 25px;
 `;
 class Menubar extends React.Component {
   Menu = [
@@ -24,6 +25,7 @@ class Menubar extends React.Component {
       icon: "user",
       color: "black",
       text: "Intro",
+      
     },
     {
       icon: "react",

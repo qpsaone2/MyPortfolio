@@ -5,12 +5,14 @@ import { FlexBox } from "../resusuable/styles";
 import img1 from "../../img/myimage.png";
 
 const InstroContainer = styled.div`
-  position: relative;
+  position: fixed;
   margin: 0 auto;
-  margin-top: 100px;
+  margin-bottom: 200px;
+  margin-top: 200px;
+  margin-left: 600px;
   width: 620px;
   height: 420px;
-  box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.3);
+  box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.3);
 
   .me {
     width: 100%;
@@ -39,7 +41,6 @@ const IconsBox = styled.div`
   position: absolute;
   bottom: 0;
   height: 70px;
-  background-color: #555;
   width: 100%;
   padding: 20px 0;
   .myicon {
@@ -84,21 +85,19 @@ class AWS extends Component {
               </FlexBox>
               <br />
               <FlexBox style={{ marginTop: "7px" }}>
-                <div className="flex-2 label">Phone</div>
+                <div className="flex-2 label">Cloud</div>
                 <div className="flex-1">&nbsp;</div>
-                <div className="flex-6">010-5194-1416</div>
+                <div className="flex-6">
+                  DevOps이해, CI/CD,빌드,테스트: 인프라, 플랫폼. 데브옵스 환경,
+                  데브옵스 구축, 프로젝트 빌 드관리/ 애플리케이션을 도커 이미졸
+                  생성
+                </div>
               </FlexBox>
               <br />
               <FlexBox style={{ marginTop: "7px" }}>
-                <div className="flex-2 label">Address</div>
+                <div className="flex-2 label">github</div>
                 <div className="flex-1">&nbsp;</div>
-                <div className="flex-6">부산 동래구 사직동</div>
-              </FlexBox>
-              <br />
-              <FlexBox style={{ marginTop: "7px" }}>
-                <div className="flex-2 label">Email</div>
-                <div className="flex-1">&nbsp;</div>
-                <div className="flex-6">cloudlsc0406@gmail.com</div>
+                <div className="flex-6">https://github.com/qpsaone2</div>
               </FlexBox>
             </div>
           </FlexBox>
